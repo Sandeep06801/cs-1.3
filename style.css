@@ -1,0 +1,134 @@
+.register-form {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+
+.form-align {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    height: 35px;
+}
+
+.address {
+    height: 80px;
+}
+
+input {
+    border-radius: 0;
+    width: 250px;
+    margin-left: 50px;
+}
+
+.button-align {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.abc-align {
+    padding-top: 50px;
+    position: absolute;
+    top:25%;
+    left:25%;
+    transform:translate(160%,-60%);
+}
+
+.abc-aligning {
+    padding-top: 50px;
+    position: absolute;
+    top:35%;
+    left:25%;
+    transform:translate(170%,-50%);
+}
+
+.successful-form {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+
+.register-details-align p{
+    display: flex;
+    justify-content: space-between;
+    margin:0;
+    padding: 5px 0;
+}
+
+.left-align {
+    flex: 4;
+    text-align: left;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.right-align {
+    flex:4;
+    text-align: left;
+    padding-right: 15px;
+}
+
+.login-form {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.user{
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 15px;
+    padding-top: 15px;
+    margin-right: 10px;
+}
+
+.dash {
+    align-items: center;
+    nav-right: 150%;
+    padding-inline: 4px;
+}
+
+.logout {
+    text-decoration: underline;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-right: 35px;
+
+}
+
+.view-abc-align {
+    padding-top: 50px;
+    position: absolute;
+    top:25%;
+    left:15%;
+    transform:translate(70%,-90%);
+}
+
+.view-tickets-list {
+    top:25%;
+    right:70%;
+    transform:translate(23%,65%);
+}
+
+.page2-tickets-list {
+    top:25%;
+    right:70%;
+    transform:translate(23%,85%);
+} 

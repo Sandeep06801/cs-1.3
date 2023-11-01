@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Tickets</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th,td {
+            padding: 5px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #82bff0;
+        }
+    </style>
+</head>
+<body>
+    <div class="view-abc-align">
+        <h1 
+            style="color: red;
+            font-weight:bolder;">ABC
+            <span
+                style="font-size: large;
+                color: rgb(9, 183, 240);">Airline
+            </span>
+        </h1>
+    </div>
+    <div class="view-tickets-list">
+        <h1 style="top: 25%;
+            left: 60%;
+            transform:translate(18%,18%);
+            color: grey;
+            ">Booking List
+        </h1>
+    <table>
+        <tr>
+            <th>PNR NO</th>
+            <th>Travel Date</th>
+            <th>Source</th>
+            <th>Destination</th>
+            <th>Seat Preference</th>
+            <th>Meal Preference</th>
+        </tr>
+        <tr>
+            <td>191829</td>
+            <td>12/1/2023</td>
+            <td>Chennai</td>
+            <td>USA</td>
+            <td>Middle</td>
+            <td>Veg</td>
+        </tr>
+        <tr>
+            <td>191839</td>
+            <td>12/2/2023</td>
+            <td>Delhi</td>
+            <td>Tirupati</td>
+            <td>Window</td>
+            <td>Non-Veg</td>
+        </tr>
+        <tr>
+            <td>191729</td>
+            <td>1/1/2023</td>
+            <td>New Delhi</td>
+            <td>Visakhapatnam</td>
+            <td>Aisle</td>
+            <td>Veg</td>
+        </tr>
+        <tr>
+            <td>192829</td>
+            <td>12/4/2021</td>
+            <td>Chennai</td>
+            <td>Hyderabad</td>
+            <td>Middle</td>
+            <td>Non-Veg</td>
+        </tr>
+        <tr>
+            <td>131829</td>
+            <td>15/1/2022</td>
+            <td>Visakhapatnam</td>
+            <td>Bangalore</td>
+            <td>Middle</td>
+            <td>Veg</td>
+        </tr>
+    </table>
+    <br>
+        <a href="#"><< Prev</a>
+        <br>
+        <a 
+            style="position: absolute;
+            right: 75%;
+            transform: translate(350px,30px);"
+            href="next-page.html">Next>>
+        </a>
+    </div>
+</body>
+</html>
